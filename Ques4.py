@@ -1,3 +1,7 @@
+import numpy as np
+
+arr = np.random.randint(low = 1, high = 100, size = (5,5))
+
 sliced_arr = arr[1:-1, 1:-1]
 print(sliced_arr)
 

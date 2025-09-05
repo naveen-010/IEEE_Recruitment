@@ -44,8 +44,10 @@ cutoffs = [
     ("Hyd", "MSc Physics", 245)
 ]
 
+
+#For extractig the above data , i copied the data from website to chatgptr and asked it to make it into dict. SOrry but i didnt know how to extract it , i could do manually but its the same thing. I domt know if we were supposed to do it with code (logic/alogrithm) as it wasnt mentioned.
 # dict = {}
-dict = { "Pilani" : {}, "Goa" : {}, "Hyderabad":{}}
+dict = { "Pilani" : {}, "Goa" : {}, "Hyderabad":{}} # Making dict of dicts then first dealing with each dict (pilani , goa, huderabad) and then at last putting them at their place in "dict"
 Pilani  = {}
 Goa = {}
 Hyderabad = {}
